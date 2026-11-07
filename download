@@ -1,0 +1,36 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Veri klasörleri (büyük dosyalar)
+dataset/
+flower_photos/
+*.tgz
+
+# Model dosyaları (büyük olabilir)
+*.h5
+*.hdf5
+*.pb
+saved_models/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rapor derleme dosyaları
+*.aux
+*.log
+*.out
+*.synctex.gz
